@@ -3,7 +3,6 @@
 
 :root {
     --laranja-claro: #FF862A;
-    --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
@@ -18,9 +17,11 @@ header {
     background-color: #ffffff;
 }
 
+
 section {
     padding-bottom: 5rem;
 }
+
 
 .nav-link {
     color: #CB6D43;
@@ -29,7 +30,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/4965007 (1).jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -49,6 +50,7 @@ section {
     height: auto;
 }
 
+
 .esquerda-conteudo {
     display: flex;
     flex-direction: column;
@@ -56,14 +58,13 @@ section {
     gap: 1rem;
 }
 
+
 .botao-inicio {
     background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
-    /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
-    /* Convertido para em */
     align-content: center;
 
 }
@@ -72,13 +73,14 @@ section {
     text-shadow: -5px 5px var(--laranja-claro);
 }
 
+
 #tropicalia {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/flor (1).png') top right no-repeat,
+        url('img/flor-esquerda (1).png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -91,6 +93,7 @@ section {
     z-index: 1;
     /* Garante que o conteúdo fica acima das imagens do background */
 }
+
 
 h2 {
     font-family: 'Lemon', serif;
@@ -105,12 +108,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/flor-bottom-direita (1).png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/4965007 (1).jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -134,7 +137,6 @@ h2 {
     font-weight: bold;
 }
 
-/* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
 }
@@ -159,12 +161,10 @@ h2 {
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
-
 .apresenta-lista{
     display: none;
 }
 
-/* alto contraste */
 .alto-contraste{
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
@@ -185,7 +185,7 @@ h2 {
 .alto-contraste .formulario button,
 .alto-contraste .btn-primary{
     background-color: var(--alto-contraste-link);
-   color: var(--alto-contraste-fundo)
+    color: var(--alto-contraste-fundo)
 }
 
 .alto-contraste #tropicalia {
@@ -195,7 +195,6 @@ h2 {
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
 }
-
 .alto-contraste .fundo-galeria {
     background: none;
 }
